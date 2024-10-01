@@ -1,3 +1,6 @@
+import { FaEarlybirds, FaEnvelope, FaInstagramSquare, FaYoutube } from 'react-icons/fa';
+import { FaEnvelopesBulk, FaSquareYoutube } from 'react-icons/fa6';
+
 export default function Header() {
 	return (
 		<header className='header'>
@@ -20,6 +23,17 @@ export default function Header() {
 					</li>
 					<li>
 						<a href='#'>POSTS</a>
+					</li>
+				</ul>
+				<ul className='sns'>
+					<li>
+						<FaYoutube />
+					</li>
+					<li>
+						<FaInstagramSquare />
+					</li>
+					<li>
+						<FaEnvelope />
 					</li>
 				</ul>
 			</nav>
