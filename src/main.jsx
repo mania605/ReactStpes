@@ -1,10 +1,10 @@
+//가상돔 요소를 생성해주는 리액트 객체 가져옴
 import React from "react";
+//리액트 객체가 생성한 리액트 요소를 일반돔으로 변환하는 객체
 import ReactDOM from "react-dom/client";
-import App from "./src/App.jsx";
-import "./src/styles/index.css";
+//루트 컴포넌트(리액트 요소를 반환해주는 함수)
+import App from "./App.jsx";
+//루트 컴포넌트에 적용하 ㄹ전체 스타일 파일
+import "./styles/index.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
