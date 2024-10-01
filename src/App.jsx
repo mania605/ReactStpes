@@ -17,10 +17,8 @@ import Title from './Title';
 function App() {
 	return (
 		<>
-			<Title />
-			<List />
-			<BtnA />
-			<BtnB />
+			<Title /> 			
+			<List /> 			 
 		</>
 	);
 }
