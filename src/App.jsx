@@ -10,20 +10,21 @@
 // 7. 컴포넌트 호출방식<컴포넌트 함수명/>
 // 8 .만약 불필요한 Wrapping요소 없이 그룹화 하고 싶을 때 fragment<></> 형태로 감싸줌
 // */
-
+import { BtnA, BtnB } from './Btn';
+import List from './List';
+import Title from './Title';
 
 function App() {
 	return (
-<>
-			<h1 className="abc">Hello</h1>
-			<ul>
-				<li>list1</li>
-				<li>list2</li>
-				<li>list3</li>
-			</ul>
-</>
+		<>
+			<Title />
+			<List />
+			<BtnA />
+			<BtnB />
+		</>
 	);
 }
+
 
 //작업 내보내기 가져오기import 해야 됨.
 export default App;
