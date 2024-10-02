@@ -6,17 +6,5 @@ export default function Title({ color, text, children }) {
 	);
 }
 
-// 해당 타이틀 컴포넌트를 부모에서 호출할 때
-// color를 props로 글자 색상값을 전달받아서
-//h1에 원하는 글자색상이 적용되도록 처리
-
-//GPT답
-// export default function Title(props) {
-// 	const { text, color } = props; //color와 text props를 분리
-// 	console.log(props);
-// 	return (
-// 		<h1 className='title' style={{ color: color }}>
-// 			{text}
-// 		</h1>
-// 	);
-// }
+//미션 (10시 20분까지)
+//해당 children속성을 활용해서 모든 서브페이지 동일한 구조의 틀을 유지하도록 Layout.jsx컴포넌트를 어떤식으로 구성할지 고민
